@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046209FA0C05043900C38EA8 /* AltiVecHilfsmittel.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F487330BFFB79C00B866B0 /* AltiVecHilfsmittel.h */; };
+		046209FB0C05043A00C38EA8 /* AltiVecMathematik.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F487340BFFB79C00B866B0 /* AltiVecMathematik.h */; };
+		046209FC0C05043A00C38EA8 /* Ops.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BDE33206F0D8AE0038CDFF /* Ops.h */; };
+		046209FD0C05043B00C38EA8 /* MetaProg.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F61EA906EC6AC1005733A1 /* MetaProg.h */; };
+		046209FE0C05043B00C38EA8 /* Vec.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DF630006E691BF00D39614 /* Vec.h */; };
+		046209FF0C05043B00C38EA8 /* VecMath.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F61EAA06EC6AC1005733A1 /* VecMath.h */; };
+		04620A000C05043C00C38EA8 /* VecFarbe.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F612BD06EB4A75005733A1 /* VecFarbe.h */; };
+		04620A010C05043D00C38EA8 /* Parallel.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD4054E79BD000E7E7A /* Parallel.h */; };
+		04620A020C05045100C38EA8 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CD9054E79BD000E7E7A /* Renderer.cpp */; };
+		04620A030C05045100C38EA8 /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CDA054E79BD000E7E7A /* Renderer.h */; };
+		04620A040C05045200C38EA8 /* Quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD7054E79BD000E7E7A /* Quaternion.h */; };
+		04620A050C05045200C38EA8 /* Projektionsraum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CD5054E79BD000E7E7A /* Projektionsraum.cpp */; };
+		04620A060C05045300C38EA8 /* Projektionsraum.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD6054E79BD000E7E7A /* Projektionsraum.h */; };
+		04620A070C05045300C38EA8 /* Lichtquelle.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD1054E79BD000E7E7A /* Lichtquelle.h */; };
+		04620A080C05045400C38EA8 /* Kugel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CCF054E79BD000E7E7A /* Kugel.cpp */; };
+		04620A090C05045500C38EA8 /* Kugel.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD0054E79BD000E7E7A /* Kugel.h */; };
+		04620A0A0C05045600C38EA8 /* Juliamenge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CCD054E79BD000E7E7A /* Juliamenge.cpp */; };
+		04620A0B0C05045600C38EA8 /* Juliamenge.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CCE054E79BD000E7E7A /* Juliamenge.h */; };
+		04620A0C0C05045600C38EA8 /* JuliaGeoObjekt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CCB054E79BD000E7E7A /* JuliaGeoObjekt.cpp */; };
+		04620A0D0C05045700C38EA8 /* JuliaGeoObjekt.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CCC054E79BD000E7E7A /* JuliaGeoObjekt.h */; };
+		04620A0E0C05045700C38EA8 /* GeoObjektGruppe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CC8054E79BD000E7E7A /* GeoObjektGruppe.cpp */; };
+		04620A0F0C05045800C38EA8 /* GeoObjektGruppe.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CC9054E79BD000E7E7A /* GeoObjektGruppe.h */; };
+		04620A100C05045900C38EA8 /* GeoObjekt.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CC7054E79BD000E7E7A /* GeoObjekt.h */; };
+		04620A110C05045900C38EA8 /* Farbe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CC3054E79BD000E7E7A /* Farbe.cpp */; };
+		04620A120C05045A00C38EA8 /* Farbe.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CC4054E79BD000E7E7A /* Farbe.h */; };
+		04620A130C05045A00C38EA8 /* E3Punkt.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CC2054E79BD000E7E7A /* E3Punkt.h */; };
+		04620A140C05045B00C38EA8 /* R3Vektor.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CD8054E79BD000E7E7A /* R3Vektor.h */; };
+		04620A150C05045B00C38EA8 /* Mathematik.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E2C9B0057D2B060080593E /* Mathematik.h */; };
+		04620AB50C050A6300C38EA8 /* libGastonLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04620AB40C050A6300C38EA8 /* libGastonLib.a */; };
+		8D1107280486CEB800E47090 /* Gaston_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* Gaston_Prefix.pch */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		B3174A710E3723CB004E4A51 /* libGastonLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04620AB40C050A6300C38EA8 /* libGastonLib.a */; };
+		B3174A720E3723CC004E4A51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3174A630E372389004E4A51 /* main.cpp */; };
+		B31C2CE0054E79BD000E7E7A /* GastonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B31C2CC5054E79BD000E7E7A /* GastonViewController.h */; };
+		B31C2CE1054E79BD000E7E7A /* GastonViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CC6054E79BD000E7E7A /* GastonViewController.mm */; };
+		B31C2CEE054E79BD000E7E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B31C2CD3054E79BD000E7E7A /* main.m */; };
+		B31C2D30054E79CD000E7E7A /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B31C2D1E054E79CD000E7E7A /* Icon.icns */; };
+		B31E4B5C0C3C60DA00664FD2 /* SSEMathematik.h in Headers */ = {isa = PBXBuildFile; fileRef = B31E4B5A0C3C60D400664FD2 /* SSEMathematik.h */; };
+		B31E4B720C3C62CB00664FD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E4B710C3C62CB00664FD2 /* Accelerate.framework */; };
+		B31E4BB40C3C65DB00664FD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31E4B710C3C62CB00664FD2 /* Accelerate.framework */; };
+		B3470A0C056BF79F00BA8265 /* Parameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3470A0B056BF79F00BA8265 /* Parameters.plist */; };
+		B34BAE8A07C8F1E60087778C /* GastonWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B34BAE8807C8F1E60087778C /* GastonWindow.h */; };
+		B34BAE8B07C8F1E60087778C /* GastonWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B34BAE8907C8F1E60087778C /* GastonWindow.m */; };
+		B3B5E6570C7C1BB0003568F3 /* DocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B3B5E6560C7C1BB0003568F3 /* DocumentIcon.icns */; };
+		B3C59E700C0E459900668724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B3E4298B0C4D009600AF6E44 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = B3E429850C4D009600AF6E44 /* Credits.html */; };
+		B3E4298C0C4D009600AF6E44 /* Gaston.nib in Resources */ = {isa = PBXBuildFile; fileRef = B3E429870C4D009600AF6E44 /* Gaston.nib */; };
+		B3E4298D0C4D009600AF6E44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3E429890C4D009600AF6E44 /* Localizable.strings */; };
+		B3F4049306F33CC4009F84A6 /* Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3F4049206F33CC4009F84A6 /* Default.plist */; };
+		B3F4053F06F348CA009F84A6 /* Benchmark.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3F4053E06F348CA009F84A6 /* Benchmark.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04620AAB0C050A0700C38EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046209F80C05042400C38EA8;
+			remoteInfo = GastonLib;
+		};
+		B3174A790E3724FE004E4A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046209F80C05042400C38EA8;
+			remoteInfo = GastonLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04620AB40C050A6300C38EA8 /* libGastonLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGastonLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Gaston_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gaston_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Gaston.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaston.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3174A630E372389004E4A51 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Quellcode/main.cpp; sourceTree = "<group>"; };
+		B3174A6A0E3723A0004E4A51 /* GastonBench */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GastonBench; sourceTree = BUILT_PRODUCTS_DIR; };
+		B31C2CC2054E79BD000E7E7A /* E3Punkt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = E3Punkt.h; path = Quellcode/E3Punkt.h; sourceTree = "<group>"; };
+		B31C2CC3054E79BD000E7E7A /* Farbe.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Farbe.cpp; path = Quellcode/Farbe.cpp; sourceTree = "<group>"; };
+		B31C2CC4054E79BD000E7E7A /* Farbe.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Farbe.h; path = Quellcode/Farbe.h; sourceTree = "<group>"; };
+		B31C2CC5054E79BD000E7E7A /* GastonViewController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GastonViewController.h; path = Quellcode/GastonViewController.h; sourceTree = "<group>"; };
+		B31C2CC6054E79BD000E7E7A /* GastonViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 30; name = GastonViewController.mm; path = Quellcode/GastonViewController.mm; sourceTree = "<group>"; };
+		B31C2CC7054E79BD000E7E7A /* GeoObjekt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GeoObjekt.h; path = Quellcode/GeoObjekt.h; sourceTree = "<group>"; };
+		B31C2CC8054E79BD000E7E7A /* GeoObjektGruppe.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GeoObjektGruppe.cpp; path = Quellcode/GeoObjektGruppe.cpp; sourceTree = "<group>"; };
+		B31C2CC9054E79BD000E7E7A /* GeoObjektGruppe.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GeoObjektGruppe.h; path = Quellcode/GeoObjektGruppe.h; sourceTree = "<group>"; };
+		B31C2CCB054E79BD000E7E7A /* JuliaGeoObjekt.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = JuliaGeoObjekt.cpp; path = Quellcode/JuliaGeoObjekt.cpp; sourceTree = "<group>"; };
+		B31C2CCC054E79BD000E7E7A /* JuliaGeoObjekt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = JuliaGeoObjekt.h; path = Quellcode/JuliaGeoObjekt.h; sourceTree = "<group>"; };
+		B31C2CCD054E79BD000E7E7A /* Juliamenge.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Juliamenge.cpp; path = Quellcode/Juliamenge.cpp; sourceTree = "<group>"; };
+		B31C2CCE054E79BD000E7E7A /* Juliamenge.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Juliamenge.h; path = Quellcode/Juliamenge.h; sourceTree = "<group>"; };
+		B31C2CCF054E79BD000E7E7A /* Kugel.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Kugel.cpp; path = Quellcode/Kugel.cpp; sourceTree = "<group>"; };
+		B31C2CD0054E79BD000E7E7A /* Kugel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Kugel.h; path = Quellcode/Kugel.h; sourceTree = "<group>"; };
+		B31C2CD1054E79BD000E7E7A /* Lichtquelle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Lichtquelle.h; path = Quellcode/Lichtquelle.h; sourceTree = "<group>"; };
+		B31C2CD3054E79BD000E7E7A /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Quellcode/main.m; sourceTree = "<group>"; };
+		B31C2CD4054E79BD000E7E7A /* Parallel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Parallel.h; path = Quellcode/Parallel.h; sourceTree = "<group>"; };
+		B31C2CD5054E79BD000E7E7A /* Projektionsraum.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Projektionsraum.cpp; path = Quellcode/Projektionsraum.cpp; sourceTree = "<group>"; };
+		B31C2CD6054E79BD000E7E7A /* Projektionsraum.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Projektionsraum.h; path = Quellcode/Projektionsraum.h; sourceTree = "<group>"; };
+		B31C2CD7054E79BD000E7E7A /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Quaternion.h; path = Quellcode/Quaternion.h; sourceTree = "<group>"; };
+		B31C2CD8054E79BD000E7E7A /* R3Vektor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = R3Vektor.h; path = Quellcode/R3Vektor.h; sourceTree = "<group>"; };
+		B31C2CD9054E79BD000E7E7A /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Renderer.cpp; path = Quellcode/Renderer.cpp; sourceTree = "<group>"; };
+		B31C2CDA054E79BD000E7E7A /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Renderer.h; path = Quellcode/Renderer.h; sourceTree = "<group>"; };
+		B31C2D1E054E79CD000E7E7A /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = Ressourcen/Icon.icns; sourceTree = "<group>"; };
+		B31E4B5A0C3C60D400664FD2 /* SSEMathematik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSEMathematik.h; path = Quellcode/SSEMathematik.h; sourceTree = "<group>"; };
+		B31E4B710C3C62CB00664FD2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		B33EA0300C4D16CE00883D3B /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = French; path = Ressourcen/French.lproj/Credits.html; sourceTree = "<group>"; };
+		B33EA0310C4D16D700883D3B /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = Ressourcen/French.lproj/Gaston.nib; sourceTree = "<group>"; };
+		B33EA0320C4D16DE00883D3B /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = Ressourcen/French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B33EA0330C4D16E700883D3B /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = Ressourcen/French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B33EA0A50C4D489300883D3B /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.html; name = Japanese; path = Ressourcen/Japanese.lproj/Credits.html; sourceTree = "<group>"; };
+		B33EA0A60C4D48A100883D3B /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Ressourcen/Japanese.lproj/Gaston.nib; sourceTree = "<group>"; };
+		B33EA0A70C4D48AA00883D3B /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Ressourcen/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B33EA0A80C4D48B300883D3B /* Japanese */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Japanese; path = Ressourcen/Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3470A0B056BF79F00BA8265 /* Parameters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; lineEnding = 1; name = Parameters.plist; path = Ressourcen/Parameters.plist; sourceTree = "<group>"; };
+		B34BAE8807C8F1E60087778C /* GastonWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GastonWindow.h; path = Quellcode/GastonWindow.h; sourceTree = "<group>"; };
+		B34BAE8907C8F1E60087778C /* GastonWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = GastonWindow.m; path = Quellcode/GastonWindow.m; sourceTree = "<group>"; };
+		B3B5E6560C7C1BB0003568F3 /* DocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = DocumentIcon.icns; path = Ressourcen/DocumentIcon.icns; sourceTree = "<group>"; };
+		B3BB59F90550795700E1CA93 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Ressourcen/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3BDE33206F0D8AE0038CDFF /* Ops.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Ops.h; path = Quellcode/Ops.h; sourceTree = "<group>"; };
+		B3DF630006E691BF00D39614 /* Vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vec.h; path = Quellcode/Vec.h; sourceTree = "<group>"; };
+		B3E2C9B0057D2B060080593E /* Mathematik.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mathematik.h; path = Quellcode/Mathematik.h; sourceTree = "<group>"; };
+		B3E429800C4D006D00AF6E44 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = German; path = Ressourcen/German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3E429860C4D009600AF6E44 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = Ressourcen/English.lproj/Credits.html; sourceTree = "<group>"; };
+		B3E429880C4D009600AF6E44 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = Ressourcen/English.lproj/Gaston.nib; sourceTree = "<group>"; };
+		B3E4298A0C4D009600AF6E44 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Ressourcen/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3E4298E0C4D00A200AF6E44 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = German; path = Ressourcen/German.lproj/Credits.html; sourceTree = "<group>"; };
+		B3E4298F0C4D00AF00AF6E44 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = Ressourcen/German.lproj/Gaston.nib; sourceTree = "<group>"; };
+		B3E429900C4D00BB00AF6E44 /* German */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = German; path = Ressourcen/German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3F4049206F33CC4009F84A6 /* Default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Default.plist; path = Ressourcen/Default.plist; sourceTree = "<group>"; };
+		B3F4053E06F348CA009F84A6 /* Benchmark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Benchmark.plist; path = Ressourcen/Benchmark.plist; sourceTree = "<group>"; };
+		B3F487330BFFB79C00B866B0 /* AltiVecHilfsmittel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AltiVecHilfsmittel.h; path = Quellcode/AltiVecHilfsmittel.h; sourceTree = "<group>"; };
+		B3F487340BFFB79C00B866B0 /* AltiVecMathematik.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AltiVecMathematik.h; path = Quellcode/AltiVecMathematik.h; sourceTree = "<group>"; };
+		B3F612BD06EB4A75005733A1 /* VecFarbe.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VecFarbe.h; path = Quellcode/VecFarbe.h; sourceTree = "<group>"; };
+		B3F61EA906EC6AC1005733A1 /* MetaProg.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MetaProg.h; path = Quellcode/MetaProg.h; sourceTree = "<group>"; };
+		B3F61EAA06EC6AC1005733A1 /* VecMath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = VecMath.h; path = Quellcode/VecMath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046209F70C05042400C38EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31E4B720C3C62CB00664FD2 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04620AB50C050A6300C38EA8 /* libGastonLib.a in Frameworks */,
+				B3C59E700C0E459900668724 /* Cocoa.framework in Frameworks */,
+				B31E4BB40C3C65DB00664FD2 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3174A680E3723A0004E4A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3174A710E3723CB004E4A51 /* libGastonLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3F60F1106EA69ED005733A1 /* Vec */,
+				B3E2C9B0057D2B060080593E /* Mathematik.h */,
+				B31C2CD8054E79BD000E7E7A /* R3Vektor.h */,
+				B31C2CC2054E79BD000E7E7A /* E3Punkt.h */,
+				B31C2CC4054E79BD000E7E7A /* Farbe.h */,
+				B31C2CC3054E79BD000E7E7A /* Farbe.cpp */,
+				B31C2CC7054E79BD000E7E7A /* GeoObjekt.h */,
+				B31C2CC9054E79BD000E7E7A /* GeoObjektGruppe.h */,
+				B31C2CC8054E79BD000E7E7A /* GeoObjektGruppe.cpp */,
+				B31C2CCC054E79BD000E7E7A /* JuliaGeoObjekt.h */,
+				B31C2CCB054E79BD000E7E7A /* JuliaGeoObjekt.cpp */,
+				B31C2CCE054E79BD000E7E7A /* Juliamenge.h */,
+				B31C2CCD054E79BD000E7E7A /* Juliamenge.cpp */,
+				B31C2CD0054E79BD000E7E7A /* Kugel.h */,
+				B31C2CCF054E79BD000E7E7A /* Kugel.cpp */,
+				B31C2CD1054E79BD000E7E7A /* Lichtquelle.h */,
+				B31C2CD6054E79BD000E7E7A /* Projektionsraum.h */,
+				B31C2CD5054E79BD000E7E7A /* Projektionsraum.cpp */,
+				B31C2CD7054E79BD000E7E7A /* Quaternion.h */,
+				B31C2CDA054E79BD000E7E7A /* Renderer.h */,
+				B31C2CD9054E79BD000E7E7A /* Renderer.cpp */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B31E4B710C3C62CB00664FD2 /* Accelerate.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Gaston.app */,
+				04620AB40C050A6300C38EA8 /* libGastonLib.a */,
+				B3174A6A0E3723A0004E4A51 /* GastonBench */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Gaston */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				B3174A5F0E372355004E4A51 /* Benchmark */,
+				29B97315FDCFA39411CA2CEA /* Cocoa */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Gaston;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B31C2CC5054E79BD000E7E7A /* GastonViewController.h */,
+				B31C2CC6054E79BD000E7E7A /* GastonViewController.mm */,
+				B34BAE8807C8F1E60087778C /* GastonWindow.h */,
+				B34BAE8907C8F1E60087778C /* GastonWindow.m */,
+				B31C2CD3054E79BD000E7E7A /* main.m */,
+				32CA4F630368D1EE00C91783 /* Gaston_Prefix.pch */,
+			);
+			name = Cocoa;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3E429850C4D009600AF6E44 /* Credits.html */,
+				B3E429870C4D009600AF6E44 /* Gaston.nib */,
+				B3E429890C4D009600AF6E44 /* Localizable.strings */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				B31C2D1E054E79CD000E7E7A /* Icon.icns */,
+				B3B5E6560C7C1BB0003568F3 /* DocumentIcon.icns */,
+				B3470A0B056BF79F00BA8265 /* Parameters.plist */,
+				B3F4049206F33CC4009F84A6 /* Default.plist */,
+				B3F4053E06F348CA009F84A6 /* Benchmark.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3174A5F0E372355004E4A51 /* Benchmark */ = {
+			isa = PBXGroup;
+			children = (
+				B3174A630E372389004E4A51 /* main.cpp */,
+			);
+			name = Benchmark;
+			sourceTree = "<group>";
+		};
+		B3F60F1106EA69ED005733A1 /* Vec */ = {
+			isa = PBXGroup;
+			children = (
+				B3F487330BFFB79C00B866B0 /* AltiVecHilfsmittel.h */,
+				B3F487340BFFB79C00B866B0 /* AltiVecMathematik.h */,
+				B31E4B5A0C3C60D400664FD2 /* SSEMathematik.h */,
+				B3BDE33206F0D8AE0038CDFF /* Ops.h */,
+				B3F61EA906EC6AC1005733A1 /* MetaProg.h */,
+				B3DF630006E691BF00D39614 /* Vec.h */,
+				B3F61EAA06EC6AC1005733A1 /* VecMath.h */,
+				B3F612BD06EB4A75005733A1 /* VecFarbe.h */,
+				B31C2CD4054E79BD000E7E7A /* Parallel.h */,
+			);
+			name = Vec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046209F50C05042400C38EA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046209FA0C05043900C38EA8 /* AltiVecHilfsmittel.h in Headers */,
+				046209FB0C05043A00C38EA8 /* AltiVecMathematik.h in Headers */,
+				046209FC0C05043A00C38EA8 /* Ops.h in Headers */,
+				046209FD0C05043B00C38EA8 /* MetaProg.h in Headers */,
+				046209FE0C05043B00C38EA8 /* Vec.h in Headers */,
+				046209FF0C05043B00C38EA8 /* VecMath.h in Headers */,
+				04620A000C05043C00C38EA8 /* VecFarbe.h in Headers */,
+				04620A010C05043D00C38EA8 /* Parallel.h in Headers */,
+				04620A030C05045100C38EA8 /* Renderer.h in Headers */,
+				04620A040C05045200C38EA8 /* Quaternion.h in Headers */,
+				04620A060C05045300C38EA8 /* Projektionsraum.h in Headers */,
+				04620A070C05045300C38EA8 /* Lichtquelle.h in Headers */,
+				04620A090C05045500C38EA8 /* Kugel.h in Headers */,
+				04620A0B0C05045600C38EA8 /* Juliamenge.h in Headers */,
+				04620A0D0C05045700C38EA8 /* JuliaGeoObjekt.h in Headers */,
+				04620A0F0C05045800C38EA8 /* GeoObjektGruppe.h in Headers */,
+				04620A100C05045900C38EA8 /* GeoObjekt.h in Headers */,
+				04620A120C05045A00C38EA8 /* Farbe.h in Headers */,
+				04620A130C05045A00C38EA8 /* E3Punkt.h in Headers */,
+				04620A140C05045B00C38EA8 /* R3Vektor.h in Headers */,
+				04620A150C05045B00C38EA8 /* Mathematik.h in Headers */,
+				B31E4B5C0C3C60DA00664FD2 /* SSEMathematik.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1107280486CEB800E47090 /* Gaston_Prefix.pch in Headers */,
+				B31C2CE0054E79BD000E7E7A /* GastonViewController.h in Headers */,
+				B34BAE8A07C8F1E60087778C /* GastonWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		046209F80C05042400C38EA8 /* GastonLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04620A7B0C0504BF00C38EA8 /* Build configuration list for PBXNativeTarget "GastonLib" */;
+			buildPhases = (
+				046209F50C05042400C38EA8 /* Headers */,
+				046209F60C05042400C38EA8 /* Sources */,
+				046209F70C05042400C38EA8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GastonLib;
+			productName = GastonLib;
+			productReference = 04620AB40C050A6300C38EA8 /* libGastonLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D1107260486CEB800E47090 /* Gaston */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36F957009BCB0AC00F0F42D /* Build configuration list for PBXNativeTarget "Gaston" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				04620AA90C05096E00C38EA8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04620AAC0C050A0700C38EA8 /* PBXTargetDependency */,
+			);
+			name = Gaston;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Gaston;
+			productReference = 8D1107320486CEB800E47090 /* Gaston.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3174A690E3723A0004E4A51 /* GastonBench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3174A740E3723F1004E4A51 /* Build configuration list for PBXNativeTarget "GastonBench" */;
+			buildPhases = (
+				B3174A670E3723A0004E4A51 /* Sources */,
+				B3174A680E3723A0004E4A51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3174A7A0E3724FE004E4A51 /* PBXTargetDependency */,
+			);
+			name = GastonBench;
+			productName = GastonBench;
+			productReference = B3174A6A0E3723A0004E4A51 /* GastonBench */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B36F957609BCB0AC00F0F42D /* Build configuration list for PBXProject "Gaston" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Gaston */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046209F80C05042400C38EA8 /* GastonLib */,
+				8D1107260486CEB800E47090 /* Gaston */,
+				B3174A690E3723A0004E4A51 /* GastonBench */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				B31C2D30054E79CD000E7E7A /* Icon.icns in Resources */,
+				B3470A0C056BF79F00BA8265 /* Parameters.plist in Resources */,
+				B3F4049306F33CC4009F84A6 /* Default.plist in Resources */,
+				B3F4053F06F348CA009F84A6 /* Benchmark.plist in Resources */,
+				B3E4298B0C4D009600AF6E44 /* Credits.html in Resources */,
+				B3E4298C0C4D009600AF6E44 /* Gaston.nib in Resources */,
+				B3E4298D0C4D009600AF6E44 /* Localizable.strings in Resources */,
+				B3B5E6570C7C1BB0003568F3 /* DocumentIcon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04620AA90C05096E00C38EA8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046209F60C05042400C38EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04620A020C05045100C38EA8 /* Renderer.cpp in Sources */,
+				04620A050C05045200C38EA8 /* Projektionsraum.cpp in Sources */,
+				04620A080C05045400C38EA8 /* Kugel.cpp in Sources */,
+				04620A0A0C05045600C38EA8 /* Juliamenge.cpp in Sources */,
+				04620A0C0C05045600C38EA8 /* JuliaGeoObjekt.cpp in Sources */,
+				04620A0E0C05045700C38EA8 /* GeoObjektGruppe.cpp in Sources */,
+				04620A110C05045900C38EA8 /* Farbe.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31C2CE1054E79BD000E7E7A /* GastonViewController.mm in Sources */,
+				B31C2CEE054E79BD000E7E7A /* main.m in Sources */,
+				B34BAE8B07C8F1E60087778C /* GastonWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3174A670E3723A0004E4A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3174A720E3723CC004E4A51 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04620AAC0C050A0700C38EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046209F80C05042400C38EA8 /* GastonLib */;
+			targetProxy = 04620AAB0C050A0700C38EA8 /* PBXContainerItemProxy */;
+		};
+		B3174A7A0E3724FE004E4A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046209F80C05042400C38EA8 /* GastonLib */;
+			targetProxy = B3174A790E3724FE004E4A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BB59F90550795700E1CA93 /* English */,
+				B3E429800C4D006D00AF6E44 /* German */,
+				B33EA0330C4D16E700883D3B /* French */,
+				B33EA0A80C4D48B300883D3B /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3E429850C4D009600AF6E44 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E429860C4D009600AF6E44 /* English */,
+				B3E4298E0C4D00A200AF6E44 /* German */,
+				B33EA0300C4D16CE00883D3B /* French */,
+				B33EA0A50C4D489300883D3B /* Japanese */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		B3E429870C4D009600AF6E44 /* Gaston.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E429880C4D009600AF6E44 /* English */,
+				B3E4298F0C4D00AF00AF6E44 /* German */,
+				B33EA0310C4D16D700883D3B /* French */,
+				B33EA0A60C4D48A100883D3B /* Japanese */,
+			);
+			name = Gaston.nib;
+			sourceTree = "<group>";
+		};
+		B3E429890C4D009600AF6E44 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E4298A0C4D009600AF6E44 /* English */,
+				B3E429900C4D00BB00AF6E44 /* German */,
+				B33EA0320C4D16DE00883D3B /* French */,
+				B33EA0A70C4D48AA00883D3B /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04620A7C0C0504BF00C38EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GastonLib;
+			};
+			name = Debug;
+		};
+		04620A7D0C0504BF00C38EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GastonLib;
+			};
+			name = Release;
+		};
+		04620A7F0C0504BF00C38EA8 /* Fast */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GastonLib;
+			};
+			name = Fast;
+		};
+		B3174A6C0E3723A1004E4A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = GastonBench;
+			};
+			name = Debug;
+		};
+		B3174A6D0E3723A1004E4A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = GastonBench;
+			};
+			name = Release;
+		};
+		B3174A6E0E3723A1004E4A51 /* Release_LLVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				PREBINDING = NO;
+				PRODUCT_NAME = GastonBench;
+			};
+			name = Release_LLVM;
+		};
+		B3174A700E3723A1004E4A51 /* Fast */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				MACH_O_TYPE = mh_execute;
+				PREBINDING = NO;
+				PRODUCT_NAME = GastonBench;
+			};
+			name = Fast;
+		};
+		B323D54C0C147808008372DB /* Release_LLVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GastonLib;
+			};
+			name = Release_LLVM;
+		};
+		B323D54D0C147808008372DB /* Release_LLVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Gaston;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release_LLVM;
+		};
+		B323D54E0C147808008372DB /* Release_LLVM */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc7400,
+					i386,
+					x86_64,
+				);
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_PEDANTIC = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Winline",
+					"--param",
+					"max-inline-insns-single=2000",
+					"--param",
+					"large-function-growth=2000",
+				);
+				PER_ARCH_CFLAGS_ppc = "-mcpu=750";
+				PER_ARCH_CFLAGS_ppc7400 = "-faltivec";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release_LLVM;
+		};
+		B36F957109BCB0AC00F0F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Gaston;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36F957209BCB0AC00F0F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Gaston;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B36F957409BCB0AC00F0F42D /* Fast */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Gaston;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Fast;
+		};
+		B36F957709BCB0AC00F0F42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_PEDANTIC = YES;
+			};
+			name = Debug;
+		};
+		B36F957809BCB0AC00F0F42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					ppc7400,
+					i386,
+				);
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_PEDANTIC = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Winline",
+					"--param",
+					"max-inline-insns-single=2000",
+					"--param",
+					"large-function-growth=2000",
+				);
+				PER_ARCH_CFLAGS_ppc = "-mcpu=G3";
+				PER_ARCH_CFLAGS_ppc7400 = "-mcpu=G4 -faltivec";
+				PER_ARCH_CFLAGS_ppc970 = "-mcpu=G5 -faltivec";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		B36F957A09BCB0AC00F0F42D /* Fast */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_PEDANTIC = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Winline",
+					"--param",
+					"max-inline-insns-single=2000",
+					"--param",
+					"large-function-growth=2000",
+				);
+			};
+			name = Fast;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04620A7B0C0504BF00C38EA8 /* Build configuration list for PBXNativeTarget "GastonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04620A7C0C0504BF00C38EA8 /* Debug */,
+				04620A7D0C0504BF00C38EA8 /* Release */,
+				B323D54C0C147808008372DB /* Release_LLVM */,
+				04620A7F0C0504BF00C38EA8 /* Fast */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3174A740E3723F1004E4A51 /* Build configuration list for PBXNativeTarget "GastonBench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3174A6C0E3723A1004E4A51 /* Debug */,
+				B3174A6D0E3723A1004E4A51 /* Release */,
+				B3174A6E0E3723A1004E4A51 /* Release_LLVM */,
+				B3174A700E3723A1004E4A51 /* Fast */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B36F957009BCB0AC00F0F42D /* Build configuration list for PBXNativeTarget "Gaston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F957109BCB0AC00F0F42D /* Debug */,
+				B36F957209BCB0AC00F0F42D /* Release */,
+				B323D54D0C147808008372DB /* Release_LLVM */,
+				B36F957409BCB0AC00F0F42D /* Fast */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B36F957609BCB0AC00F0F42D /* Build configuration list for PBXProject "Gaston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36F957709BCB0AC00F0F42D /* Debug */,
+				B36F957809BCB0AC00F0F42D /* Release */,
+				B323D54E0C147808008372DB /* Release_LLVM */,
+				B36F957A09BCB0AC00F0F42D /* Fast */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

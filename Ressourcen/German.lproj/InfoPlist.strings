@@ -1,0 +1,3 @@
+/* Localized versions of Info.plist keys */
+CFBundleGetInfoString = "Version 1.2.2, Copyright © 2009 Leo Fink.  Alle Rechte vorbehalten.";
+NSHumanReadableCopyright = "Copyright © 2009 Leo Fink.  Alle Rechte vorbehalten.";

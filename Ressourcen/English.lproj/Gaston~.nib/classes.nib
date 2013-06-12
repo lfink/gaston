@@ -1,0 +1,42 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                aktualisiere = id; 
+                brichAktionAb = id; 
+                debug = id; 
+                exportiereBild = id; 
+                exportiereBildOhneHintergrund = id; 
+                oeffneParameter = id; 
+                setzeZurueck = id; 
+                speichereParameter = id; 
+                starteBenchmark = id; 
+            }; 
+            CLASS = GastonViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                antialiasingSchalter = id; 
+                bitmapgroesseFeld = id; 
+                drehbarMenue = id; 
+                entfernungsSchieber = id; 
+                farbwaehler = id; 
+                fortschrittsAnzeiger = id; 
+                genauigkeitsSchieber = id; 
+                hintergrundfarbwaehler = id; 
+                iSchieber = id; 
+                iterationslimitSchieber = id; 
+                jSchieber = id; 
+                kSchieber = id; 
+                rSchieber = id; 
+                schlagschattenSchalter = id; 
+                statusFeld = id; 
+                stereoskopischSchalter = id; 
+                winkelSchieber = id; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = GastonWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

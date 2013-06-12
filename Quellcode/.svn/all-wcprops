@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/678/leo/Gaston/trunk/Quellcode
+END
+E3Punkt.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/E3Punkt.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/main.m
+END
+GastonViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/2470/leo/Gaston/trunk/Quellcode/GastonViewController.h
+END
+Projektionsraum.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Projektionsraum.h
+END
+AltiVecMathematik.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/AltiVecMathematik.h
+END
+JuliaGeoObjekt.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/JuliaGeoObjekt.h
+END
+Ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2460/leo/Gaston/trunk/Quellcode/Ops.h
+END
+Renderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Renderer.h
+END
+Kugel.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Kugel.h
+END
+Juliamenge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Juliamenge.cpp
+END
+Vec.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Vec.h
+END
+VecFarbe.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/VecFarbe.h
+END
+R3Vektor.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/R3Vektor.h
+END
+Farbe.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Farbe.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/main.cpp
+END
+GastonWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/GastonWindow.h
+END
+Mathematik.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Mathematik.h
+END
+Projektionsraum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Projektionsraum.cpp
+END
+GastonWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/GastonWindow.m
+END
+JuliaGeoObjekt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/2460/leo/Gaston/trunk/Quellcode/JuliaGeoObjekt.cpp
+END
+GeoObjektGruppe.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/GeoObjektGruppe.h
+END
+AltiVecHilfsmittel.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/AltiVecHilfsmittel.h
+END
+Parallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2460/leo/Gaston/trunk/Quellcode/Parallel.h
+END
+SSEMathematik.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/SSEMathematik.h
+END
+Renderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Renderer.cpp
+END
+Kugel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Kugel.cpp
+END
+GeoObjekt.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/GeoObjekt.h
+END
+OpsAltiVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/OpsAltiVec.h
+END
+Farbe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Farbe.cpp
+END
+Lichtquelle.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/Lichtquelle.h
+END
+GastonViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/2470/leo/Gaston/trunk/Quellcode/GastonViewController.mm
+END
+MetaProg.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/MetaProg.h
+END
+Juliamenge.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2459/leo/Gaston/trunk/Quellcode/Juliamenge.h
+END
+Quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/676/leo/Gaston/trunk/Quellcode/Quaternion.h
+END
+GeoObjektGruppe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/GeoObjektGruppe.cpp
+END
+VecMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/54/leo/Gaston/trunk/Quellcode/VecMath.h
+END
